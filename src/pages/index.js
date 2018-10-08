@@ -19,9 +19,9 @@ class HomeIndex extends React.Component {
 
                     <section id="one">
                         <h2>Skills</h2>
-                        <p><strong>Languages</strong> / HTML5, JavaScript ES6, CSS3<br />
+                        <p><strong>Languages</strong> / HTML5, JavaScript ES6, CSS3<br/>
                             <strong>Frameworks</strong> / React<br />
-                            <strong>Version Control</strong> / BitBucket, Git, GitHub<br />
+                            <strong>Version Control</strong> / BitBucket, Git, GitHub<br/>
                             <strong>Platforms</strong> / Magento, Sharepoint, Sitecore, Umbraco, Wordpress<br />
                             <strong>Performance</strong> / PageSpeed Insights, Lighthouse<br />
                             <strong>Design</strong> / Adobe XD</p>
@@ -38,7 +38,7 @@ class HomeIndex extends React.Component {
                             <strong>University of Missouri - Kansas City </strong> / Bachelor of Arts - Communication Studies, Cum Laude <br />
                         </p>
                     </section>
-                    <section id="three">
+{/*                    <section id="three">
                         <h2>Get In Touch</h2>
                         <div className="row">
                             <div className="12u 12u$(small)">
@@ -63,10 +63,12 @@ class HomeIndex extends React.Component {
                                 </ul>
                                     </div>
                                 </form>
+
                             </div>
 
                         </div>
                     </section>
+                    */}
                 </div>
 
             </Layout>
