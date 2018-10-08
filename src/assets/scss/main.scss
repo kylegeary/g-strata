@@ -56,10 +56,10 @@
 		}
 	}
 
-	body, input, select, textarea {
+	body, input, select, textarea, button {
 		color: _palette(fg);
 		font-family: _font(family);
-		font-size: 16pt;
+		font-size: 14pt;
 		font-weight: _font(weight);
 		line-height: 1.75em;
 	}
@@ -795,7 +795,8 @@
 	input[type="submit"],
 	input[type="reset"],
 	input[type="button"],
-	.button {
+	.button,
+	button {
 		@include vendor('appearance', 'none');
 		@include vendor('transition', ('background-color #{_duration(transition)} ease-in-out', 'color #{_duration(transition)} ease-in-out', 'border-color #{_duration(transition)} ease-in-out'));
 		background-color: transparent;
