@@ -41,7 +41,7 @@
 	));
 
 	$size-header-width: 35%;
-	$size-header-pad: 4em;
+	$size-header-pad: 2em;
 
 /* Basic */
 
@@ -109,7 +109,7 @@
 
 	h2 {
 		font-size: 1.5em;
-		line-height: 1.5em;
+		line-height: 1em;
 	}
 
 	h3 {
@@ -903,7 +903,7 @@
 		@include vendor('justify-content', 'space-between');
 		background-color:		_palette(accent2, bg);
 		background-attachment:	scroll,								fixed;
-		background-image:		url('images/overlay.png'),			url('../images/bg.jpg');
+		background-image: linear-gradient(to left bottom, #27c38b, #00aeae, #0094c2, #0076be, #4f549e);
 		background-position:	top left,							top left;
 		background-repeat:		repeat,								no-repeat;
 		background-size:		auto,								auto 100%;
@@ -1187,7 +1187,7 @@
 		/* Basic */
 
 			body, input, select, textarea {
-				font-size: 12pt;
+				font-size: 14pt;
 			}
 
 	}
