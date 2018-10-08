@@ -2,6 +2,7 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 
+
 class HomeIndex extends React.Component {
 
     render() {
@@ -70,6 +71,7 @@ class HomeIndex extends React.Component {
                     </section>
                     */}
                 </div>
+
 
             </Layout>
         )
