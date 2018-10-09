@@ -57,7 +57,7 @@
 	}
 
 	body, input, select, textarea, button {
-		color: _palette(fg);
+		color: _palette(font);
 		font-family: _font(family);
 		font-size: 14pt;
 		font-weight: _font(weight);
@@ -78,7 +78,7 @@
 	}
 
 	strong, b {
-		color: _palette(fg-bold);
+		color: _palette(font-bold);
 		font-weight: _font(weight-bold);
 	}
 
@@ -91,7 +91,7 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: _palette(fg-bold);
+		color: _palette(font-bold);
 		font-weight: _font(weight-bold);
 		line-height: 1em;
 		margin: 0 0 (_size(element-margin) * 0.5) 0;
